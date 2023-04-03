@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+}
+.game {
+    height: 20px;
+    width: 255px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 249, 249);
+    margin: auto;
+    font-weight: 500;
+}
+.title {
+    background: rgb(23, 24, 22);
+    padding: 5px 0;
+    margin: 5px 0;
+}
+span {
+    color: #fa0;
+}
+.square {
+    width: 80px;
+    height: 80px;
+    background: rgb(26, 28, 48);
+float: left;
+    margin: 2px;
+    font-size: 60px;
+}
+.square:hover {
+    background: rgba(0, 0, 255, 0.452);
+    cursor: pointer;
+}
